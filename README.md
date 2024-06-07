@@ -84,7 +84,7 @@ ____________________
 
 ______________________________________
 
-#### ❤ Projeto realizado pelo grupo da Turma 02/B da Faculdade de Analise e Desenvolvimento de Sistemas - UNINOVE
+#### ❤ Projeto realizado pelo grupo da Turma 39-SA da Faculdade de Analise e Desenvolvimento de Sistemas - UNINOVE
 Projeto Integrador - 2024
 
 #### 😎 Membros do Grupo:
