@@ -1,6 +1,6 @@
 # Pitanga & Cacau
 
-[Aplicação rodando no NETLIFY]([(https://pitangaecacau.netlify.app/))
+[Aplicação rodando no NETLIFY](https://pitangaecacau.netlify.app/)
 ____________________
 
 [GitHub Front & Back- End](https://github.com/mathxusohai/Pitanga-e-Cacau.git)
