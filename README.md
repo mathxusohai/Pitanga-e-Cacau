@@ -86,7 +86,7 @@ ____________________
 ______________________________________
 
 #### ❤ Projeto realizado pelo grupo da Turma 02/B da Faculdade de Analise e Desenvolvimento de Sistemas - UNINOVE
-Projeto Integrador - 2023
+Projeto Integrador - 2024
 
 #### 😎 Membros do Grupo:
 #### - Matheus M.
