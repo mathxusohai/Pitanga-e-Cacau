@@ -1,0 +1,198 @@
+.imagem-direita {
+    float: left;
+    /* Define a imagem para flutuar para a esquerda */
+    margin-right: 50px;
+    /* Adiciona uma margem à direita para separar a imagem do texto */
+}
+
+.texto-direita {
+    text-align: right;
+    /* Alinha o texto à direita */
+    color: white;
+}
+
+.texto-center {
+    display: flex;
+    justify-content: center; /* Alinha o texto horizontalmente ao centro */
+    color: white;
+    align-items: center;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+    /* Aqui você pode adicionar outras propriedades conforme necessário */
+}
+
+.subs{
+    color: white;
+    align-items: left;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.subs-price{
+    color: white;
+    align-items: left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+p {
+    margin-bottom: 30px;
+}
+
+nat{
+    color: rgb(73, 194, 3);
+}
+.nature{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.natureza {
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    text-align: center; /* Alinha o texto dentro do contêiner ao centro */
+    color: white; /* Cor do texto */
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+
+.img-padrao {
+    width: auto; /* Define a largura da imagem como 100% do seu contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    max-width: 400px; /* Define a largura máxima da imagem */
+    max-height: 300px; /* Define a altura máxima da imagem */
+}
+
+
+.texto-wrpad{
+    display: flex;
+    justify-content: center; /* Alinha o texto horizontalmente ao centro */
+    color: white;
+    align-items: center;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.texto-wrpad2{
+    display: flex;
+    justify-content: center; /* Alinha o texto horizontalmente ao centro */
+    color: white;
+    align-items: center;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: rgb(242, 73, 109, 1);
+    padding: 20px 0;
+    text-align: center;
+    font-family: var(--body-font-family);    
+}
+
+
+.slick-carousel {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se houver muitos slides */
+}
+
+.slick-slide {
+    flex: 0 0 calc(33.33% - 10px); /* Ajusta a largura dos slides */
+    margin: 0 100px; /* Adiciona margens laterais entre os slides */
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro dos slides */
+}
+
+.slick-slide img {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem ajustando automaticamente a altura */
+}
+
+#portfolio {
+    padding-top: 100px; /* Adiciona espaço extra acima da seção */
+    padding-bottom: 500px; /* Adiciona espaço extra abaixo da seção */
+    align-items: center;
+}
+
+.slick-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slick-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .carousel-arrow {
+        display: none;
+    }
+}
+
+.carousel-arrow {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.portfolio-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prev-arrow {
+    margin-right: 30px; /* Adicione a quantidade de margem desejada */
+}
+
+.next-arrow {
+    right: 30px;
+}
+
+.portfolio-items {
+    overflow: hidden; /* Para ocultar os itens extras */
+}
+
+.hidden {
+    display: none;
+}
+
+.portfolio-info {
+    margin-top: 10px; /* Adicione margem para separar o texto do produto */
+}
+
+
+.portfolio-item {
+    display: none; /* Oculta todos os itens */
+}
+
+.portfolio-item:nth-child(-n+3) {
+    display: block; /* Exibe os três primeiros itens */
+}
+
+
+.arrow-bar {
+    background-color: transparent; /* Define a cor de fundo como transparente */
+}
