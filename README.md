@@ -90,7 +90,7 @@ Projeto Integrador - 2024
 #### 😎 Membros do Grupo:
 #### - Matheus M.
 #### - Jady F.
-#### - Felipe A. 🐶
+#### - Felipe A.
 #### - Eveny G.
 #### - Klayver M.
 #### - Kauan N.
